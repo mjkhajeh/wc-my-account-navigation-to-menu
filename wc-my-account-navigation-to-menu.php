@@ -1,16 +1,17 @@
 <?php
 /**
- * Plugin Name:       WooCommerce My Account navigation to menu
+ * Plugin Name:       WC My Account navigation to menu
  * Plugin URI:        https://wordpress.org/plugins/wc-my-account-link-to-menu/
  * Description:       Ability to edit account page items using the WordPress menu.
  * Version:           1.0.0.0
- * Requires at least: 5.8
+ * Requires at least: 6.0
  * Requires PHP:      7.4
+ * Tested up to:      7.0
  * Author:            MohammadJafar Khajeh
  * Author URI:        https://mjkhajeh.ir
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       mj-wc-my-account-navigation-to-menu
+ * Text Domain:       wc-my-account-navigation-to-menu
  * Domain Path:       /languages
  * Requires Plugins:  woocommerce
  */
@@ -19,9 +20,9 @@ namespace MJ\WCMyAccountNavToMenu;
 
 class Init {
 	public static function init() {
-		load_plugin_textdomain( 'mj-wc-my-account-navigation-to-menu', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+		load_plugin_textdomain( 'wc-my-account-navigation-to-menu', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 
-		register_nav_menu( 'my-account-menu', esc_html__( 'Account page menu', 'mj-wc-my-account-navigation-to-menu' ) );
+		register_nav_menu( 'my-account-menu', esc_html__( 'Account page menu', 'wc-my-account-navigation-to-menu' ) );
 	}
 
 	public static function get_menu_items() {
