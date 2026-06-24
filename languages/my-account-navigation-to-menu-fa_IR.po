@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WC My Account navigation to menu\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-20 13:19+0000\n"
-"PO-Revision-Date: 2026-06-20 13:20+0000\n"
+"PO-Revision-Date: 2026-06-24 21:52+0000\n"
 "Last-Translator: دکتر پلاس\n"
 "Language-Team: فارسی\n"
 "Language: fa_IR\n"
@@ -20,7 +20,7 @@ msgid "Ability to edit account page items using the WordPress menu."
 msgstr ""
 "افزودن امکان ویرایش منو حساب کاربری ووکامرس با استفاده از منو(فهرست) وردپرس."
 
-#: wc-my-account-navigation-to-menu.php:25
+#: my-account-navigation-to-menu.php:25
 msgid "Account page menu"
 msgstr "منو صفحه حساب کاربری"
 
@@ -29,13 +29,15 @@ msgid "https://mjkhajeh.ir"
 msgstr "https://mjkhajeh.ir"
 
 #. URI of the plugin
-msgid "https://wordpress.org/plugins/wc-my-account-link-to-menu/"
-msgstr "https://wordpress.org/plugins/wc-my-account-link-to-menu/"
+#| msgid "https://wordpress.org/plugins/wc-my-account-link-to-menu/"
+msgid "https://wordpress.org/plugins/my-account-link-to-menu/"
+msgstr "https://wordpress.org/plugins/my-account-link-to-menu/"
 
 #. Author of the plugin
 msgid "MohammadJafar Khajeh"
 msgstr "محمدجعفر خواجه"
 
 #. Name of the plugin
-msgid "WC My Account navigation to menu"
+#| msgid "WC My Account navigation to menu"
+msgid "My Account navigation to menu"
 msgstr "ویرایش منو حساب کاربری با منو وردپرس"
