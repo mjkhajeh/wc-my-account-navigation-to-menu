@@ -18,6 +18,8 @@
 
 namespace MJ\MyAccountNavToMenu;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 class Init {
 	public static function init() {
 		load_plugin_textdomain( 'my-account-navigation-to-menu', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
